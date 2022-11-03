@@ -1,7 +1,17 @@
 {% extends 'base/main.html' %}
-
+{% load static %}
 {% block content %}
 
-<h2>Lobby</h2>
+<main>
+    <section id="form-container">
+        <img id="logo"  src= "{% static 'images/chat-icon.png' %}" />
+        <div>
+            <h1>Welcome to the forum</h1>
+            <p>Sign in to continue</p>
+        </div> 
+    </section>
+    
+        
+</main>
 
 {% endblock content %}
